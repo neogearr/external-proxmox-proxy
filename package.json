@@ -1,0 +1,16 @@
+{
+  "name": "external-proxmox-proxy",
+  "version": "1.0.0",
+  "description": "Um proxy externo para interagir com a API do Proxmox.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
